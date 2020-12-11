@@ -1,0 +1,178 @@
+body{
+  background-color: white;
+  color: black;
+  margin: 40px;
+  margin-bottom: 90px;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+p{
+  margin-bottom: 5rem;
+}
+
+nav{
+  margin-bottom: 60px;
+}
+
+
+h1,h2,h3,h5{
+  font-weight: 400;
+}
+
+h1{
+margin-bottom: 30px;
+}
+
+h3{
+margin-bottom: 80px;
+color: black;
+border-bottom: 1px solid;
+display: inline;
+}
+
+
+h3:hover{
+  opacity: 0.6;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.about-h2, .index-h2, .contact-h2,.ceramics-h2{
+  width: 600px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+li{
+  font-size: 20px;
+  color: black;
+}
+
+img{
+  width: 580px;
+  margin-bottom: 10px;
+}
+
+.index-img:hover{
+  opacity: 0.9;
+  transition-delay: 0.1s;
+}
+
+.image-left{
+margin-right: 50px;
+}
+
+.image-div{
+  margin-bottom: 60px;
+}
+
+
+.next-page{
+  text-align: right;
+}
+
+i{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.shortway{
+  margin-bottom: 30px;
+}
+
+/* Contact Form */
+span{
+  font-size: 12px;
+  background-color:#cc3b3b;
+  color: #fff;
+padding: 4px;
+display: none;
+}
+
+label{
+  display: block;
+}
+
+button{
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid black;
+}
+
+button:hover{
+  background-color: black;
+  color: #fff;
+}
+
+form{
+  font-size: 20px;
+}
+
+.input{
+  width: 500px;
+  margin-bottom: 25px;
+}
+
+textarea{
+  width: 500px;
+  height: 100px;
+  margin-bottom: 25px;
+}
+
+/* About HTML */
+
+.about-para{
+  width: 600px;
+}
+
+/* Clay HTML */
+.ceramics-2{
+  height: 774px;
+}
+
+/* Watches Html */
+.watches-2{
+  height: 387px;
+}
+
+/* Specialists Html */
+.specialists-2{
+  height: 444px;
+}
+
+/* StudioVega HTML */
+.studiovega-5, .studiovega-6{
+  height: 600px;
+}
+.studiovega-4{
+  height: 900px;
+}
+
+
+
+@media (max-width: 1028px) {
+
+  .about-h2, .index-h2, .contact-h2,.ceramics-h2{
+  width: 400px;
+}
+
+.about-para{
+  width: 400px;
+}
+
+.nav-item{
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+
+ul{
+  margin-top: 20px;
+}
+
+}
