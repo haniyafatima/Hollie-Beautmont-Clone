@@ -69,7 +69,6 @@ margin-right: 50px;
   margin-bottom: 60px;
 }
 
-
 .next-page{
   text-align: right;
 }
@@ -83,8 +82,12 @@ i{
   margin-bottom: 30px;
 }
 
+.span11{
+font-size: 25px; 
+}
+
 /* Contact Form */
-span{
+.error{
   font-size: 12px;
   background-color:#cc3b3b;
   color: #fff;

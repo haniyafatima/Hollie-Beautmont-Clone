@@ -9,41 +9,41 @@ document.querySelector("#btn").addEventListener("click" , function(){
 if(fname.value === ""){
   document.querySelectorAll("input")[0].style.borderColor="#cc3b3b";
   document.querySelectorAll("label")[0].style.color="#cc3b3b";
-  document.querySelectorAll("span")[0].style.display="inline";
+  document.querySelectorAll(".error")[0].style.display="inline";
 }else{
-  document.querySelectorAll("span")[0].style.display="none";
+  document.querySelectorAll(".error")[0].style.display="none";
 }
 
 if(lname.value === ""){
   document.querySelectorAll("input")[1].style.borderColor="#cc3b3b";
   document.querySelectorAll("label")[1].style.color="#cc3b3b";
-  document.querySelectorAll("span")[1].style.display="inline";
+  document.querySelectorAll(".error")[1].style.display="inline";
 }else {
-  document.querySelectorAll("span")[1].style.display="none";
+  document.querySelectorAll(".error")[1].style.display="none";
 }
 
 if(email.value === ""){
   document.querySelectorAll("input")[2].style.borderColor="#cc3b3b";
   document.querySelectorAll("label")[2].style.color="#cc3b3b";
-  document.querySelectorAll("span")[2].style.display="inline";
+  document.querySelectorAll(".error")[2].style.display="inline";
 }else{
-  document.querySelectorAll("span")[2].style.display="none";
+  document.querySelectorAll(".error")[2].style.display="none";
 }
 
 if(business.value === ""){
   document.querySelectorAll("textarea")[0].style.borderColor="#cc3b3b";
   document.querySelectorAll("label")[4].style.color="#cc3b3b";
-  document.querySelectorAll("span")[3].style.display="inline";
+  document.querySelectorAll(".error")[3].style.display="inline";
 }else{
-  document.querySelectorAll("span")[3].style.display="none";
+  document.querySelectorAll(".error")[3].style.display="none";
 }
 
 if(project.value === ""){
   document.querySelectorAll("textarea")[1].style.borderColor="#cc3b3b";
   document.querySelectorAll("label")[5].style.color="#cc3b3b";
-  document.querySelectorAll("span")[4].style.display="inline";
+  document.querySelectorAll(".error")[4].style.display="inline";
 }else{
-  document.querySelectorAll("span")[4].style.display="none";
+  document.querySelectorAll(".error")[4].style.display="none";
 }
 
 
