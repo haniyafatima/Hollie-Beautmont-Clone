@@ -2,13 +2,13 @@
 #Description
 This is a copy of already existing website which was created from  Square Space. I took this as challenge to create similar looking design.
 
-#Author
+Author:
 Haniya Fatima 2020
 
-#Goal 
+Goal: 
 Goal of this project was to improve my bootstrap and css skills. And to create similar looking design.
 
-#Technologies
+Skills used:
 HTML
 CSS
 JavaScript
